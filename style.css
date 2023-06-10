@@ -1,20 +1,73 @@
-.container{
+.odin-recipes {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 700px;
+    margin-top: 250px;
+    color: brown;
+    width: 400px;
+
+}
+
+body {
+    background-image: url("./images/nice");
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(images/bg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
+
 }
-.recipe-box{
-    width: 90%;
-    max-width: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    padding: 50px 60px 70px;
+
+.recipe-1 {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: green;
+    padding: 5px 10px;
     text-align: center;
-    border-radius: 20px;
+    display: block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+
+}
+
+.recipe-2 {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.recipe-3 {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: 10px 30px;
+    
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+.button:hover{
+    background-color:brown;
+    transition: 0.7s;
 }
